@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+section {
+    height: 100vh;
+    width: 100vw;
+}
+
+section > img {
+    display: block;
+    width: 100px;
+    padding: 15px;
+}
