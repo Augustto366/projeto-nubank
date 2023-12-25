@@ -1,7 +1,12 @@
 @charset "UTF-8";
 
-body {
-    margin-bottom: 0px;
+html, body {
+    overflow: hidden;
+}
+
+main {
+    height: 100vh;
+
 }
 
 section {
