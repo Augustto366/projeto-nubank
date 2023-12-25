@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
-html, body {
+html {
+    height: 100vh;
+}
+
+body {
     overflow: hidden;
 }
 
