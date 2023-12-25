@@ -4,12 +4,7 @@ html, body {
     overflow: hidden;
 }
 
-main {
-    height: 100vh;
-
-}
-
-section {
+main > section {
     width: 100vw;
     height: 100vh;   
 }
