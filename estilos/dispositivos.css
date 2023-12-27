@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+    main {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    section {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    div#botao input {
+        color: #ffff;
+        font-size: 13px;
+        background-color: #9B3BDA;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+    div#botao input:hover {
+        background-color: #9a3bdade;
+        transition: ease-in-out 0.3s;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+    main {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    section h1 {
+        font-size: 2em;
+    }
+
+    section {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    div#login input {
+        width: 50vw;
+    }
+
+    div#botao input {
+        width: 54vw;
+        color: #ffff;
+        font-size: 13px;
+        background-color: #9B3BDA;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+    div#botao input:hover {
+        background-color: #9a3bdade;
+        transition: ease-in-out 0.3s;
+    }
+}
