@@ -15,7 +15,7 @@ html, body {
     width: 100vw;
     height: 100vh;
     font-family: Graphik-Regular;
-    background-color: #791494;
+    background-image: linear-gradient(to bottom, #791494, #a56bbd);
 }
 
 main img {
@@ -34,6 +34,10 @@ section {
     height: 540px;
     width: 430px;
     border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.378);
+
+    transition: width 0.5s, height 0.5s;
+    -o-transition-timing-function: ease;
 }
 
 section h1 {
@@ -57,7 +61,7 @@ div#login input {
     font-size: 1em;
     margin-bottom: 10px;
     padding: 15px;
-    width: 270px;
+    width: 290px;
     border: none;
     border-bottom: 1px solid #791494;
     outline: none;
@@ -72,17 +76,17 @@ div#botao input {
     margin-top: 50px;
     padding: 23px;
     width: 300px;
-    color: #791494;
+    color: #fff;
     font-weight: bolder;
-    font-size: 12px;
-    background-color: #ffff;
-    border: 2px solid #6e6d6d;
-    border-radius: 3px ;
+    font-size: 13px;
+    background-color:#9B3BDA;
+    border: none;
+    border-radius: 50px;
     cursor: pointer;
 }
 
 div#botao input:hover {
-    background-color: #dadada;
+    background-color: #9a3bdade;
     transition: ease-in-out 0.3s;
 }
 
