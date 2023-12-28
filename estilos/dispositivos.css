@@ -2,9 +2,14 @@
 
 @media screen and (min-width: 360px) and (max-width: 768px) {
 
+    * {
+        overflow: hidden;
+    }
+
     main {
         width: 100vw;
         height: 100vh;
+        background-color: #fff;
     }
 
     section {
@@ -29,9 +34,14 @@
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 
+    * {
+        overflow: hidden;
+    }
+
     main {
         width: 100vw;
         height: 100vh;
+        background-color: #fff;
     }
 
     section h1 {
@@ -44,11 +54,11 @@
     }
 
     div#login input {
-        width: 370px;
+        width: 60vw;
     }
 
     div#botao input {
-        width: 400px;
+        width: 60vw;
         color: #ffff;
         font-size: 13px;
         background-color: #9B3BDA;
