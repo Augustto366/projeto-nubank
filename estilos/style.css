@@ -37,7 +37,7 @@ section {
     background-color: white;
     height: 540px;
     width: 430px;
-    
+    border-radius: 8px;
 }
 
 section h1 {
