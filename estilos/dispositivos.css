@@ -17,7 +17,16 @@
         height: 100vh;
     }
 
+    section h1 {
+        font-size: 1.8em;
+    }
+
+    div#login input {
+        width: 80vw;
+    }
+
     div#botao input {
+        width: 80vw;
         color: #ffff;
         font-size: 13px;
         background-color: #9B3BDA;
